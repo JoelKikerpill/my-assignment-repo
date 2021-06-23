@@ -1,2 +1,4 @@
-# Bash, Make, Git and Github  ## DateWed Jun 23 21:43:14 EEST 2021
+# Bash, Make, Git and Github  
+## Date
+Thu Jun 24 00:17:19 EEST 2021
 32

@@ -1,9 +1,11 @@
 create_readme:
 	touch README.md
-	printf "# Bash, Make, Git and Github  " > README.md
+	echo "# Bash, Make, Git and Github  " > README.md
+	echo
 
-	printf "## Date" >> README.md
+	echo "## Date" >> README.md
 	date -r makefile >> README.md
 
-	printf "## Number of lines in guessinggame.sh"
+	echo
+	echo "## Number of lines in guessinggame.sh is "
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
