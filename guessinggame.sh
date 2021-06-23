@@ -18,11 +18,11 @@ echo "How many files are in the current directory?"
 read response
 testvariable=$response
 
-if [ $testvariable -eq 2 ]
+if [ $testvariable -eq 3 ]
 then
   echo "Congratulations mf"
   break
-elif [ $testvariable -lt 2 ]
+elif [ $testvariable -lt 3 ]
   then
   toolow
 else
